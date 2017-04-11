@@ -164,9 +164,13 @@
                 <input type="checkbox" id="terms" value="" style="zoom:1.5;margin-bottom;20px;margin-top:15px;">
                  I have read and understand the information thoroughly (ข้าพเจ้าได้อ่านและเข้าใขข้อความอย่างทั่วถึงแล้ว)
               </label>
-              <div>
+              <div id="urlThai" hidden="true">
                 <a href="http://bit.ly/2kX1rBu"
                 class="btn btn-primary btn-lg active" onclick="return advance(age,terms);" style="margin-top:25px">Proceed to Survey</a>
+              </div>
+              <div id="urlEng">
+                <a href="https://www.google.co.th/"
+                class="btn btn-primary btn-lg active" onclick="return advance(age,terms);" style="margin-top:25px">Proceed to Survey (Eng)</a>
               </div>
                 <br>
                 <p style="font-size:13px;">*You are free to leave this questionare anytime</p>
@@ -179,29 +183,35 @@
 
             function advance(getAge,getTerm) {
 
-                if (getAge.checked && getTerm.checked){
-                  return true;
-                }
-                else{
-                  alert("Please select both 2 choices to continue. (กรุณาเลือกทั้ง 2 ตัวเลือกเพื่อดำเนินการต่อ)");
-                  return false;
-                }
+              if (getAge.checked && getTerm.checked){
+                return true;
+              }
+              else{
+                alert("Please select both 2 choices to continue. (กรุณาเลือกทั้ง 2 ตัวเลือกเพื่อดำเนินการต่อ)");
+                return false;
+              }
             }
 
     				function changeLang(consentLang) {
+              var urlThai = document.getElementById('urlThai');
+              var urlEng = document.getElementById('urlEng');
+              console.log(urlEng.hidden);
 
-    				    var english = document.getElementById('consentFormEng');
-    						var thai = document.getElementById('consentFormThai');
+  				    var english = document.getElementById('consentFormEng');
+  						var thai = document.getElementById('consentFormThai');
 
-    						if (consentLang.id == 'consentFormEng'){
-    							english.style.display = 'block';
-    							thai.style.display = 'none';
-
-    						}
-    						else{
-    							thai.style.display = 'block';
-    							english.style.display = 'none';
-    						}
+  						if (consentLang.id == 'consentFormEng'){
+  							english.style.display = 'block';
+                urlThai.hidden = true;
+                urlEng.hidden = false;
+  							thai.style.display = 'none';
+  						}
+  						else{
+  							thai.style.display = 'block';
+                urlEng.hidden = true;
+                urlThai.hidden = false;
+  							english.style.display = 'none';
+  						}
     				}
     			</script>
             </div>
