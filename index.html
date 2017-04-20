@@ -16,6 +16,7 @@
 
     <!-- Theme CSS -->
     <link href="css/freelancer.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -29,6 +30,8 @@
     <!-- About Section -->
     <section class="success">
         <div class="container">
+          <div id="consentPart">
+
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3>Insect Consumption Questionnaire</h3>
@@ -43,127 +46,128 @@
     					<br>
 
     					<div id="consentFormThai" hidden="true">
-    					<textarea style="postion: fixed; left:10px; right:10px; top:10px; width: calc(90vw - 25px); height: calc(100vh - 250px); background-color:#6D7172;" readonly>
-                เอกสารชี้แจงผู้เข้าร่วมการวิจัย/อาสาสมัคร
-                (Participant Information Sheet)
+      					<textarea style="postion: fixed; left:10px; right:10px; top:10px; width: calc(90vw - 25px); height: calc(100vh - 250px); background-color:#6D7172;" readonly>
+                  เอกสารชี้แจงผู้เข้าร่วมการวิจัย/อาสาสมัคร
+                  (Participant Information Sheet)
 
-                ในเอกสารนี้อาจมีข้อความที่ท่านอ่านแล้วยังไม่เข้าใจ
-                โปรดสอบถามหัวหน้าโครงการวิจัยหรือผู้แทนให้ช่วยอธิบายจนกว่าจะเข้าใจดี
-                ท่านอาจจะขอเอกสารนี้กลับไปอ่านที่บ้านเพื่อปรึกษา หารือกับญาติพี่น้อง เพื่อนสนิท แพทย์ประจำตัวของท่าน หรือแพทย์ท่านอื่น เพื่อช่วยในการตัดสินใจเข้าร่วมการวิจัย
+                  ในเอกสารนี้อาจมีข้อความที่ท่านอ่านแล้วยังไม่เข้าใจ
+                  โปรดสอบถามหัวหน้าโครงการวิจัยหรือผู้แทนให้ช่วยอธิบายจนกว่าจะเข้าใจดี
+                  ท่านอาจจะขอเอกสารนี้กลับไปอ่านที่บ้านเพื่อปรึกษา หารือกับญาติพี่น้อง เพื่อนสนิท แพทย์ประจำตัวของท่าน หรือแพทย์ท่านอื่น เพื่อช่วยในการตัดสินใจเข้าร่วมการวิจัย
 
-                ชื่อโครงการวิจัย  การสำรวจอาการแพ้ฮิสตามินในจากการบริโภคแมลงในประเทศไทย
-                ชื่อหัวหน้าโครงการวิจัย รศ.นพ. สัมมน โฉมฉาย
-                ผู้ร่วมวิจัย น.ส.ภาสิมน บุญรัตนะ น.ส. ประไพ เล้ารักษา และ นาย ปริชญ์ วิโรจน์วัฒนกุล
-                สถานที่วิจัย  ภาควิชาเวชศาสตร์ป้องกันและสังคม คณะแพทยศาสตร์ศิริราชพยาบาล มหาวิทยาลัยมหิดล
-                สถานที่ทำงานและหมายเลขโทรศัพท์ของหัวหน้าโครงการวิจัยที่ติดต่อได้ทั้งในและนอกเวลาราชการ
-                ภาควิชาเวชศาสตร์ป้องกันและสังคม อาคารหอพยาบาล 3 ชั้น 7 โรงพยาบาลศิริราช เลขที่ 2 ถนนวังหลัง แขวงศิริราช เขตบางกอกน้อย กรุงเทพ 10700
-                โทรศัพท์(ติดต่อได้ทั้งในและนอกเวลาราชการ) โทร 0909905405 อีเมล์ summonc.muic@gmail.com
-                ผู้สนับสนุนทุนวิจัย………….ไม่มี..................
-                การมีส่วนได้ส่วนเสียกับแหล่งทุน   ☑ ไม่มี    • มี ระบุ..........................................................................
-                ระยะเวลาในการวิจัย…1ปี 6 เดือน…
-                ที่มาของโครงการวิจัย แมลงเป็นอาหารที่มีการบริโภคกันอย่างแพร่หลายในประเทศไทย ทั้งนี้เพราะแมลงมีคุณค่าทางโภชนาการสูง อย่างไรก็ตามความปลอดภัยในการบริโภคแมลงเป็นประเด็นสำคัญที่จำเป็นต้องพิจารณาควบคู่ไปกับประโยชน์ทางโภชนาการด้วย ในอดีตทีผ่านมามีหลายกรณีในประเทศไทยและต่างประเทศที่คนบริโภคแมลงแล้วเกิดอาการคล้ายภาวะภูมิแพ้ ทั้งนี้อาการดังกล่าวอาจเกิดจากสารปนเปื้อนในแมลงที่บริโภค และอาจเกิดจากปัจจัยส่วนบุคคลของผู้บริโภคที่ทำให้มีความไวต่อสารปนเปื้อนและทำให้เกิดอาการได้ง่ายขึ้นเมื่อบริโภคแมลงที่มีการปนเปื้อนนั้น ฮิสตามีนเป็นสารปนเปื้อนชนิดหนึ่งที่พบในแมลงที่ใช้บริโภค ภาวะนี้จึงเรียกว่าภาวะแพ้ฮิสตามีน  โครงการทำการสำรวจเพื่อประเมินทัศนคติของผู้ที่เคยบริโภคแมลงต่อการบริโภคแมลง อาการที่เกิดขึ้นจากการบริโภคแมลง ปัจจัยความไวส่วนบุคคล และ แนวทางการปฐมพยาบาลหรือการรักษาทางการแพทย์ที่ได้รับ ทั้งนี้เพื่อนำไปสู่องค์ความรู้ที่ส่งเสริมให้คนสามารถบริโภคแมลงได้อย่างปลอดภัยขึ้น และแมลงสามารถเป็นอาหารสำหรับคนได้อย่างยั่งยืน
+                  ชื่อโครงการวิจัย  การสำรวจอาการแพ้ฮิสตามินในจากการบริโภคแมลงในประเทศไทย
+                  ชื่อหัวหน้าโครงการวิจัย รศ.นพ. สัมมน โฉมฉาย
+                  ผู้ร่วมวิจัย น.ส.ภาสิมน บุญรัตนะ น.ส. ประไพ เล้ารักษา และ นาย ปริชญ์ วิโรจน์วัฒนกุล
+                  สถานที่วิจัย  ภาควิชาเวชศาสตร์ป้องกันและสังคม คณะแพทยศาสตร์ศิริราชพยาบาล มหาวิทยาลัยมหิดล
+                  สถานที่ทำงานและหมายเลขโทรศัพท์ของหัวหน้าโครงการวิจัยที่ติดต่อได้ทั้งในและนอกเวลาราชการ
+                  ภาควิชาเวชศาสตร์ป้องกันและสังคม อาคารหอพยาบาล 3 ชั้น 7 โรงพยาบาลศิริราช เลขที่ 2 ถนนวังหลัง แขวงศิริราช เขตบางกอกน้อย กรุงเทพ 10700
+                  โทรศัพท์(ติดต่อได้ทั้งในและนอกเวลาราชการ) โทร 0909905405 อีเมล์ summonc.muic@gmail.com
+                  ผู้สนับสนุนทุนวิจัย………….ไม่มี..................
+                  การมีส่วนได้ส่วนเสียกับแหล่งทุน   ☑ ไม่มี    • มี ระบุ..........................................................................
+                  ระยะเวลาในการวิจัย…1ปี 6 เดือน…
+                  ที่มาของโครงการวิจัย แมลงเป็นอาหารที่มีการบริโภคกันอย่างแพร่หลายในประเทศไทย ทั้งนี้เพราะแมลงมีคุณค่าทางโภชนาการสูง อย่างไรก็ตามความปลอดภัยในการบริโภคแมลงเป็นประเด็นสำคัญที่จำเป็นต้องพิจารณาควบคู่ไปกับประโยชน์ทางโภชนาการด้วย ในอดีตทีผ่านมามีหลายกรณีในประเทศไทยและต่างประเทศที่คนบริโภคแมลงแล้วเกิดอาการคล้ายภาวะภูมิแพ้ ทั้งนี้อาการดังกล่าวอาจเกิดจากสารปนเปื้อนในแมลงที่บริโภค และอาจเกิดจากปัจจัยส่วนบุคคลของผู้บริโภคที่ทำให้มีความไวต่อสารปนเปื้อนและทำให้เกิดอาการได้ง่ายขึ้นเมื่อบริโภคแมลงที่มีการปนเปื้อนนั้น ฮิสตามีนเป็นสารปนเปื้อนชนิดหนึ่งที่พบในแมลงที่ใช้บริโภค ภาวะนี้จึงเรียกว่าภาวะแพ้ฮิสตามีน  โครงการทำการสำรวจเพื่อประเมินทัศนคติของผู้ที่เคยบริโภคแมลงต่อการบริโภคแมลง อาการที่เกิดขึ้นจากการบริโภคแมลง ปัจจัยความไวส่วนบุคคล และ แนวทางการปฐมพยาบาลหรือการรักษาทางการแพทย์ที่ได้รับ ทั้งนี้เพื่อนำไปสู่องค์ความรู้ที่ส่งเสริมให้คนสามารถบริโภคแมลงได้อย่างปลอดภัยขึ้น และแมลงสามารถเป็นอาหารสำหรับคนได้อย่างยั่งยืน
 
-                วัตถุประสงค์ของโครงการวิจัย
-                1.เพื่อทราบปัจจัยส่วนบุคคลที่อาจทำให้คนมีความไวต่อการเกิดอาการภูมิแพ้จากการบริโภคแมลง
-                2.เพื่อทราบอาการผิดปกติที่เกิดจากบริโภคแมลง
-                3.เพื่อทราบการปฐมพยาบาลและการรักษาทางการแพทย์สำหรับอาการผิดปกติที่เกิดเมื่อบริโภคแมลง
-                4.เพื่อทราบทัศนคติต่อการบริโภคแมลง
+                  วัตถุประสงค์ของโครงการวิจัย
+                  1.เพื่อทราบปัจจัยส่วนบุคคลที่อาจทำให้คนมีความไวต่อการเกิดอาการภูมิแพ้จากการบริโภคแมลง
+                  2.เพื่อทราบอาการผิดปกติที่เกิดจากบริโภคแมลง
+                  3.เพื่อทราบการปฐมพยาบาลและการรักษาทางการแพทย์สำหรับอาการผิดปกติที่เกิดเมื่อบริโภคแมลง
+                  4.เพื่อทราบทัศนคติต่อการบริโภคแมลง
 
-                ท่านได้รับเชิญให้เข้าร่วมการวิจัยนี้เนื่องจากการที่ท่านเคยบริโภคแมลง
-                จะมีผู้ร่วมวิจัย/อาสาสมัครนี้ทั้งสิ้นประมาณ 113 คน
+                  ท่านได้รับเชิญให้เข้าร่วมการวิจัยนี้เนื่องจากการที่ท่านเคยบริโภคแมลง
+                  จะมีผู้ร่วมวิจัย/อาสาสมัครนี้ทั้งสิ้นประมาณ 113 คน
 
-                หากท่านตัดสินใจเข้าร่วมการวิจัยแล้ว จะมีขั้นตอนการวิจัยดังต่อไปนี้คือ
-                1.เมื่อท่านอ่านเอกสารชี้แจงผู้ร่วมวิจัย/อาสาสมัครเสร็จแล้ว จะมีปุ่มกดให้ท่านเลือกที่จะออกจากการวิจัยหรือดำเนินการต่อเพื่อตอบคำถาม
-                2.คำถามในการวิจัยมีทั้งหมด 21 คำถามซึ่งท่านจะใช้เวลาไม่เกิน10นาทีในการตอบ
-                3.หากท่านต้องการหยุดตอบคำถามหรือออกจากการสำรวจท่านสามารถปิดหน้าแบบสำรวจเพื่อออกจากหน้าสำรวจนี้ได้ ข้อมูลที่ท่านตอบแล้วจะไม่ถูกบันทึกไว้
-                4.ท่านสามารถย้อนกลับไปยังหน้าก่อนหน้านี้ที่ท่านตอบไปแล้วเพื่อแก้คำตอบได้
-                5.เมื่อท่านตอบครบทุกข้อท่านสามารถกด ส่งคำตอบเพื่อ จบการสำรวจ
+                  หากท่านตัดสินใจเข้าร่วมการวิจัยแล้ว จะมีขั้นตอนการวิจัยดังต่อไปนี้คือ
+                  1.เมื่อท่านอ่านเอกสารชี้แจงผู้ร่วมวิจัย/อาสาสมัครเสร็จแล้ว จะมีปุ่มกดให้ท่านเลือกที่จะออกจากการวิจัยหรือดำเนินการต่อเพื่อตอบคำถาม
+                  2.คำถามในการวิจัยมีทั้งหมด 21 คำถามซึ่งท่านจะใช้เวลาไม่เกิน10นาทีในการตอบ
+                  3.หากท่านต้องการหยุดตอบคำถามหรือออกจากการสำรวจท่านสามารถปิดหน้าแบบสำรวจเพื่อออกจากหน้าสำรวจนี้ได้ ข้อมูลที่ท่านตอบแล้วจะไม่ถูกบันทึกไว้
+                  4.ท่านสามารถย้อนกลับไปยังหน้าก่อนหน้านี้ที่ท่านตอบไปแล้วเพื่อแก้คำตอบได้
+                  5.เมื่อท่านตอบครบทุกข้อท่านสามารถกด ส่งคำตอบเพื่อ จบการสำรวจ
 
-                ความเสี่ยงที่อาจจะเกิดขึ้นเมื่อเข้าร่วมการวิจัย
-                1.ความไม่สบายใจที่นึกถึงอาการผิดปกติที่เกิดขึ้นเมื่อท่านบริโภคแมลง
-                2.เสียเวลาในการตอบคำถามประมาณ 10นาที
+                  ความเสี่ยงที่อาจจะเกิดขึ้นเมื่อเข้าร่วมการวิจัย
+                  1.ความไม่สบายใจที่นึกถึงอาการผิดปกติที่เกิดขึ้นเมื่อท่านบริโภคแมลง
+                  2.เสียเวลาในการตอบคำถามประมาณ 10นาที
 
-                หากท่านอ่านเอกสารนี้จบแล้วและตัดสินใจไม่เข้าร่วมในโครงการวิจัยนี้ ......จะไม่มีผลกระทบในทางลบใดๆเกิดขึ้นแก่ท่าน....................
-                หากมีข้อสงสัยที่จะสอบถามเกี่ยวข้องกับการวิจัย หรือหากมีข้อส่งสัยเกี่ยวกับผลเสียต่อสุขภาพจากการบริโภคแมลง  หรือหากเกิดผลข้างเคียงที่ไม่พึงประสงค์จากการวิจัย ท่านสามารถติดต่อ  รศ.นพ. สัมมน โฉมฉาย 0909905405 หรือ อีเมล์ summonc.muic@gmail.com
+                  หากท่านอ่านเอกสารนี้จบแล้วและตัดสินใจไม่เข้าร่วมในโครงการวิจัยนี้ ......จะไม่มีผลกระทบในทางลบใดๆเกิดขึ้นแก่ท่าน....................
+                  หากมีข้อสงสัยที่จะสอบถามเกี่ยวข้องกับการวิจัย หรือหากมีข้อส่งสัยเกี่ยวกับผลเสียต่อสุขภาพจากการบริโภคแมลง  หรือหากเกิดผลข้างเคียงที่ไม่พึงประสงค์จากการวิจัย ท่านสามารถติดต่อ  รศ.นพ. สัมมน โฉมฉาย 0909905405 หรือ อีเมล์ summonc.muic@gmail.com
 
-                ประโยชน์ที่คิดว่าจะได้รับจากการวิจัย
-                1.การมีข้อมูลเบื้องต้นเกี่ยวกับคนที่อาจมีความไวต่อการเกิดอาการคล้ายภูมิแพ้ขึ้นจากการบริโภคแมลง ทำให้เป็นพื้นฐานในการวิจัยต่อไปเพื่อยืนยันปัจจัยเสี่ยงกับการเกิดอาการคล้ายภูมิแพ้ขึ้นจากการบริโภคแมลง การมีข้อมูลดังกล่าวจะช่วยให้ผู้ที่มีปัจจัยเสี่ยงต่ออาการภูมิแพ้สามารถหลีกเลี่ยงการบริโภคแมลงได้
-                2.ทำให้ทราบอาการ การปฐมพยาบาล และ การรักษาทางการแพทย์ในคนผู้ที่เคยเกิดอาการผิดปกติจากการบริโภคแมลงและเพื่อให้ทำการศึกษาวิจัยต่อไปได้อย่างเหมาะสมขึ้น
-                3.ทำให้ทราบทัศนคติของผู้ที่เคยบริโภคแมลง เพื่อให้ทำการศึกษาวิจัยต่อไปได้อย่างเหมาะสมขึ้น
-                4.ไม่มีประโยชน์โดยตรงต่อผู้เข้าร่วมโครงการวิจัย
+                  ประโยชน์ที่คิดว่าจะได้รับจากการวิจัย
+                  1.การมีข้อมูลเบื้องต้นเกี่ยวกับคนที่อาจมีความไวต่อการเกิดอาการคล้ายภูมิแพ้ขึ้นจากการบริโภคแมลง ทำให้เป็นพื้นฐานในการวิจัยต่อไปเพื่อยืนยันปัจจัยเสี่ยงกับการเกิดอาการคล้ายภูมิแพ้ขึ้นจากการบริโภคแมลง การมีข้อมูลดังกล่าวจะช่วยให้ผู้ที่มีปัจจัยเสี่ยงต่ออาการภูมิแพ้สามารถหลีกเลี่ยงการบริโภคแมลงได้
+                  2.ทำให้ทราบอาการ การปฐมพยาบาล และ การรักษาทางการแพทย์ในคนผู้ที่เคยเกิดอาการผิดปกติจากการบริโภคแมลงและเพื่อให้ทำการศึกษาวิจัยต่อไปได้อย่างเหมาะสมขึ้น
+                  3.ทำให้ทราบทัศนคติของผู้ที่เคยบริโภคแมลง เพื่อให้ทำการศึกษาวิจัยต่อไปได้อย่างเหมาะสมขึ้น
+                  4.ไม่มีประโยชน์โดยตรงต่อผู้เข้าร่วมโครงการวิจัย
 
-                ค่าตอบแทนที่ผู้ร่วมวิจัย/อาสาสมัครจะได้รับ......ไม่มี....................
-                ค่าใช้จ่ายที่ผู้ร่วมวิจัย/อาสาสมัครจะต้องรับผิดชอบเอง......ไม่มี....................
+                  ค่าตอบแทนที่ผู้ร่วมวิจัย/อาสาสมัครจะได้รับ......ไม่มี....................
+                  ค่าใช้จ่ายที่ผู้ร่วมวิจัย/อาสาสมัครจะต้องรับผิดชอบเอง......ไม่มี....................
 
-                หากมีข้อมูลเพิ่มเติมทั้งด้านประโยชน์และโทษที่เกี่ยวข้องกับการวิจัยนี้  ผู้วิจัยจะแจ้งให้ทราบโดยรวดเร็วและไม่ปิดบัง
-                ข้อมูลส่วนตัวของผู้ร่วมวิจัย/อาสาสมัคร จะถูกเก็บรักษาไว้เป็นความลับและจะไม่เปิดเผยต่อสาธารณะเป็นรายบุคคล   แต่จะรายงานผลการวิจัยเป็นข้อมูลส่วนรวม ข้อมูลของผู้ร่วมวิจัย/อาสาสมัครเป็นรายบุคคลอาจมีคณะบุคคลบางกลุ่มเข้ามาตรวจสอบได้ เช่น ผู้ให้ทุนวิจัย ผู้กำกับดูแลการวิจัย สถาบันหรือองค์กรของรัฐที่มีหน้าที่ตรวจสอบ  รวมถึงคณะกรรมการจริยธรรมการวิจัยในคน เป็นต้น โดยไม่ละเมิดสิทธิของผู้ร่วมวิจัย/อาสาสมัครในการรักษาความลับเกินขอบเขตที่กฎหมายอนุญาตไว้
-                ผู้ร่วมวิจัย/อาสาสมัครมีสิทธิ์ถอนตัวออกจากโครงการวิจัยเมื่อใดก็ได้ โดยไม่ต้องแจ้งให้ทราบล่วงหน้า และการไม่เข้าร่วมการวิจัยหรือถอนตัวออกจากโครงการวิจัยนี้ จะไม่มีผลกระทบต่อการบริการและการรักษาที่สมควรจะได้รับตามมาตรฐานแต่ประการใด
-                หากท่านได้รับการปฏิบัติที่ไม่ตรงตามที่ได้ระบุไว้ในเอกสารชี้แจงนี้ ท่านสามารถร้องเรียนไปยังประธานคณะกรรมการจริยธรรมการวิจัยในคนได้ที่ สำนักงานคณะกรรมการจริยธรรมการวิจัยในคน อาคารเฉลิมพระเกียรติ ๘๐ พรรษา ๕ ธันวาคม ๒๕๕๐ ชั้น 2 โทร.0 2419 2667-72 โทรสาร   0 2411 0162
+                  หากมีข้อมูลเพิ่มเติมทั้งด้านประโยชน์และโทษที่เกี่ยวข้องกับการวิจัยนี้  ผู้วิจัยจะแจ้งให้ทราบโดยรวดเร็วและไม่ปิดบัง
+                  ข้อมูลส่วนตัวของผู้ร่วมวิจัย/อาสาสมัคร จะถูกเก็บรักษาไว้เป็นความลับและจะไม่เปิดเผยต่อสาธารณะเป็นรายบุคคล   แต่จะรายงานผลการวิจัยเป็นข้อมูลส่วนรวม ข้อมูลของผู้ร่วมวิจัย/อาสาสมัครเป็นรายบุคคลอาจมีคณะบุคคลบางกลุ่มเข้ามาตรวจสอบได้ เช่น ผู้ให้ทุนวิจัย ผู้กำกับดูแลการวิจัย สถาบันหรือองค์กรของรัฐที่มีหน้าที่ตรวจสอบ  รวมถึงคณะกรรมการจริยธรรมการวิจัยในคน เป็นต้น โดยไม่ละเมิดสิทธิของผู้ร่วมวิจัย/อาสาสมัครในการรักษาความลับเกินขอบเขตที่กฎหมายอนุญาตไว้
+                  ผู้ร่วมวิจัย/อาสาสมัครมีสิทธิ์ถอนตัวออกจากโครงการวิจัยเมื่อใดก็ได้ โดยไม่ต้องแจ้งให้ทราบล่วงหน้า และการไม่เข้าร่วมการวิจัยหรือถอนตัวออกจากโครงการวิจัยนี้ จะไม่มีผลกระทบต่อการบริการและการรักษาที่สมควรจะได้รับตามมาตรฐานแต่ประการใด
+                  หากท่านได้รับการปฏิบัติที่ไม่ตรงตามที่ได้ระบุไว้ในเอกสารชี้แจงนี้ ท่านสามารถร้องเรียนไปยังประธานคณะกรรมการจริยธรรมการวิจัยในคนได้ที่ สำนักงานคณะกรรมการจริยธรรมการวิจัยในคน อาคารเฉลิมพระเกียรติ ๘๐ พรรษา ๕ ธันวาคม ๒๕๕๐ ชั้น 2 โทร.0 2419 2667-72 โทรสาร   0 2411 0162
 
-    					</textarea>
-    				</div>
+      					</textarea>
+    				  </div>
 
-    				<div id="consentFormEng">
-    					<textarea style="postion: fixed; left:10px; right:10px; top:10px; width: calc(90vw - 25px); height: calc(100vh - 250px); background-color:#6D7172;" readonly>
-                Participant Information Sheet
+    				  <div id="consentFormEng">
+      					<textarea style="postion: fixed; left:10px; right:10px; top:10px; width: calc(90vw - 25px); height: calc(100vh - 250px); background-color:#6D7172;" readonly>
+                  Participant Information Sheet
 
-                This document may contain the wordings that you might not understand, please ask the principal investigator or representative to explain until understanding. You may take the document to read at home to consult or discuss with relatives or close friends, your physician or other physicians to help making decision in participation.
+                  This document may contain the wordings that you might not understand, please ask the principal investigator or representative to explain until understanding. You may take the document to read at home to consult or discuss with relatives or close friends, your physician or other physicians to help making decision in participation.
 
-                Project title A survey of histamine intolerance symptoms from insect consumptions in Thailand
-                Name of Principle Investigator: Assoc. Prof. Summon Chomchai, MD
-                Co-investigators: Ms. Parsimone Boonratana, Ms. Praphai Laoraksa, Mr. Prich Virojvatanakul
-                Research site Department of Preventive and Social Medicine, Faculty of Medicine Siriraj Hospital, Mahidol University
-                Affiliation and Telephone number of principle investigator which can be reached in and after office
-                hours: Department of Preventive and Social Medicine, Siriraj Hospital, 2 Wangland Road, Bangkoknoi District, Bangkok, 10700
-                Tel. 0909905405     e-mail: summonc.muic@gmail.com
-                Source of funding: None
-                Conflict of interest declare  No ❏ Yes, specify…………………………………….………............................
-                Duration of survey:1 year
-                Duration of research: 1 year and 6 months
+                  Project title A survey of histamine intolerance symptoms from insect consumptions in Thailand
+                  Name of Principle Investigator: Assoc. Prof. Summon Chomchai, MD
+                  Co-investigators: Ms. Parsimone Boonratana, Ms. Praphai Laoraksa, Mr. Prich Virojvatanakul
+                  Research site Department of Preventive and Social Medicine, Faculty of Medicine Siriraj Hospital, Mahidol University
+                  Affiliation and Telephone number of principle investigator which can be reached in and after office
+                  hours: Department of Preventive and Social Medicine, Siriraj Hospital, 2 Wangland Road, Bangkoknoi District, Bangkok, 10700
+                  Tel. 0909905405     e-mail: summonc.muic@gmail.com
+                  Source of funding: None
+                  Conflict of interest declare  No ❏ Yes, specify…………………………………….………............................
+                  Duration of survey:1 year
+                  Duration of research: 1 year and 6 months
 
-                Background/rationale: Insects are the foods that are widely consumed in Thailand because insects are highly nutritious. However, the safety of consuming insects is an important issue that needs to be considered in conjunction with the nutritional benefits. In the past, there have been several cases in Thailand and other countries where people consume insects developed allergy-like symptoms. However, these symptoms may be due to contaminants in consumed insects, and may be due to individual factors that make consumers more sensitive to contaminants and more easily have these symptoms when consumed contaminated insects. Histamine is one contaminant found in insects for consumption. Therefore, this condition is called histamine intolerance. This project surveys to assess the attitude of those who have consumed insects to eat insects, symptoms caused by the consumption of insects, personal sensitivity factors and first aid or medical care they receive. This leads to knowledge that promotes safety in insect consumption, so insects can become sustainable food for people.
+                  Background/rationale: Insects are the foods that are widely consumed in Thailand because insects are highly nutritious. However, the safety of consuming insects is an important issue that needs to be considered in conjunction with the nutritional benefits. In the past, there have been several cases in Thailand and other countries where people consume insects developed allergy-like symptoms. However, these symptoms may be due to contaminants in consumed insects, and may be due to individual factors that make consumers more sensitive to contaminants and more easily have these symptoms when consumed contaminated insects. Histamine is one contaminant found in insects for consumption. Therefore, this condition is called histamine intolerance. This project surveys to assess the attitude of those who have consumed insects to eat insects, symptoms caused by the consumption of insects, personal sensitivity factors and first aid or medical care they receive. This leads to knowledge that promotes safety in insect consumption, so insects can become sustainable food for people.
 
-                Objective of the project:
-                1. To know the personal factors for sensitivity of allergy-like symptoms from insect consumption
-                2. To know abnormal symptoms from insect consumption
-                3. To know first aid and medical care for abnormal symptoms from insect consumption
-                4. To know attitudes towards insect consumption
+                  Objective of the project:
+                  1. To know the personal factors for sensitivity of allergy-like symptoms from insect consumption
+                  2. To know abnormal symptoms from insect consumption
+                  3. To know first aid and medical care for abnormal symptoms from insect consumption
+                  4. To know attitudes towards insect consumption
 
-                You are invited to take part in the research owing to your experience in insect consumption
+                  You are invited to take part in the research owing to your experience in insect consumption
 
-                How many total of participants/ volunteers take part in the research?
-                Approximately 113 participants will take part in this study.
+                  How many total of participants/ volunteers take part in the research?
+                  Approximately 113 participants will take part in this study.
 
-                If you decide to take part in the research, the steps of research will be as follows:
-                1. When you have finished reading participant information sheet, there will choices of buttons for you to choose whether to leave the research or continue to answer the question.
-                2. There are 21 questions in the research questionnaire, which will take you no more than 10 minutes to answer.
-                3. If you want to stop answering questions or leave the survey, you can close the web page to leave this survey page. The information you have answered will not be saved.
-                4. You can go back to the previous page you have already answered to change the answer.
-                5. When you answer all the questions, you can press. Submit your answers to complete the survey.
+                  If you decide to take part in the research, the steps of research will be as follows:
+                  1. When you have finished reading participant information sheet, there will choices of buttons for you to choose whether to leave the research or continue to answer the question.
+                  2. There are 21 questions in the research questionnaire, which will take you no more than 10 minutes to answer.
+                  3. If you want to stop answering questions or leave the survey, you can close the web page to leave this survey page. The information you have answered will not be saved.
+                  4. You can go back to the previous page you have already answered to change the answer.
+                  5. When you answer all the questions, you can press. Submit your answers to complete the survey.
 
-                The risk that may occur when taking part in the research
-                1. Feeling uncomfortable to recall symptoms from insect ingestion
-                2. Spending approximately 10 minutes of time to complete the survey
+                  The risk that may occur when taking part in the research
+                  1. Feeling uncomfortable to recall symptoms from insect ingestion
+                  2. Spending approximately 10 minutes of time to complete the survey
 
-                If you decide not to join the project, there will be no negative consequences to you.
+                  If you decide not to join the project, there will be no negative consequences to you.
 
-                If you have any inquiries regarding the research, adverse health effects from insect consumption or if the unwanted side effect from the research occurs, you can contact Assoc. Prof. Summon Chomchai, MD tel. 0909905405 or email summonc.muic@gmail.com
+                  If you have any inquiries regarding the research, adverse health effects from insect consumption or if the unwanted side effect from the research occurs, you can contact Assoc. Prof. Summon Chomchai, MD tel. 0909905405 or email summonc.muic@gmail.com
 
-                Expected advantages from the research directly to the participant/volunteer and indirectly to the community as a whole in the future
-                1. Having preliminary information about people who are sensitive to develop allergic-like symptoms from insect ingestion. The information will be background for further research for confirmation of personal sensitivity for allergic-like symptoms from insect consumption. Moreover, the information will help people who have the risk factors to avoid insect consumptions.
-                2. Having information about symptoms, first aid and medical care in people who develop abnormal symptoms from insect ingestion, so further research can be performed more properly.
-                3. Having information about attitude towards insect consumptions, so further research can be performed more properly.
-                4. No direct benefits for participants
+                  Expected advantages from the research directly to the participant/volunteer and indirectly to the community as a whole in the future
+                  1. Having preliminary information about people who are sensitive to develop allergic-like symptoms from insect ingestion. The information will be background for further research for confirmation of personal sensitivity for allergic-like symptoms from insect consumption. Moreover, the information will help people who have the risk factors to avoid insect consumptions.
+                  2. Having information about symptoms, first aid and medical care in people who develop abnormal symptoms from insect ingestion, so further research can be performed more properly.
+                  3. Having information about attitude towards insect consumptions, so further research can be performed more properly.
+                  4. No direct benefits for participants
 
-                The compensation that the participant/volunteer will get when participating in the research: none
-                The expenses that the participant/volunteer have to be responsible during taking part in the research: none
-                If there are additional information both advantage and disadvantage involve in the research, the researcher will inform the participant immediately.
-                Participants’ personal data It will be kept confidential and will not be disclosed to the public individually. However, the findings will be reported as report collective information. Individual participant’s data may also be reviewed by individual groups such as research grantees, research supervising agencies, state institutions or investigating organizations, including ethics committees for research in human, etc. However, these reviews will not violate the rights of participants to maintain confidentiality beyond what is permitted by law.
-                The subjects have a right to withdraw from the project at any time without giving advance notice or reason. Furthermore, the withdrawal of project will not affect the received treatment and services.
-                If you are not treated as stated in this participant information sheet, you can make a complaint to the SIRB chairman, Office of Siriraj Institutional Review Board, Room 210, 2 nd floor of His majesty the King’s 80 th Birthday Anniversary 5 th December 2007 Building, Telephone 66 2419 2667-72, Fax 66 2411 0162
+                  The compensation that the participant/volunteer will get when participating in the research: none
+                  The expenses that the participant/volunteer have to be responsible during taking part in the research: none
+                  If there are additional information both advantage and disadvantage involve in the research, the researcher will inform the participant immediately.
+                  Participants’ personal data It will be kept confidential and will not be disclosed to the public individually. However, the findings will be reported as report collective information. Individual participant’s data may also be reviewed by individual groups such as research grantees, research supervising agencies, state institutions or investigating organizations, including ethics committees for research in human, etc. However, these reviews will not violate the rights of participants to maintain confidentiality beyond what is permitted by law.
+                  The subjects have a right to withdraw from the project at any time without giving advance notice or reason. Furthermore, the withdrawal of project will not affect the received treatment and services.
+                  If you are not treated as stated in this participant information sheet, you can make a complaint to the SIRB chairman, Office of Siriraj Institutional Review Board, Room 210, 2 nd floor of His majesty the King’s 80 th Birthday Anniversary 5 th December 2007 Building, Telephone 66 2419 2667-72, Fax 66 2411 0162
 
-    						</textarea>
+      					</textarea>
     					</div>
+
               <label>
                 <input type="checkbox" id="age" value="" style="zoom:1.5;margin-top:15px">
                  I am at least 18 years of age (ข้าพเจ้าอายุอย่างน้อย 18 ปี)
@@ -174,26 +178,62 @@
                  I have read and understand the information thoroughly (ข้าพเจ้าได้อ่านและเข้าใขข้อความอย่างทั่วถึงแล้ว)
               </label>
               <div id="urlThai" hidden="true">
-                <a href="http://bit.ly/2oLI1B8"
-                class="btn btn-primary btn-lg active" onclick="return advance(age,terms);" style="margin-top:25px">Proceed to Survey (ไทย)</a>
+                <!-- <a href="http://bit.ly/2oLI1B8"
+                class="btn btn-primary btn-lg active" onclick="return advance(age,terms);" style="margin-top:25px">ดำเนินการทำแบบสอบถาม</a> -->
+                <a class="btn btn-primary btn-lg active" onclick="return advance(age,terms,'thai');" style="margin-top:25px">ดำเนินการทำแบบสอบถาม</a>
               </div>
               <div id="urlEng">
-                <a href="http://bit.ly/2om6hJL"
-                class="btn btn-primary btn-lg active" onclick="return advance(age,terms);" style="margin-top:25px">Proceed to Survey (Eng)</a>
+                <!-- <a href="http://bit.ly/2om6hJL"
+                class="btn btn-primary btn-lg active" onclick="return advance(age,terms);" style="margin-top:25px">Proceed to Survey</a> -->
+                <a class="btn btn-primary btn-lg active" onclick="return advance(age,terms,'english');" style="margin-top:25px">Proceed to Survey</a>
               </div>
                 <br>
                 <p style="font-size:13px;">*You are free to leave this questionare anytime</p>
                 <p style="font-size:13px;">*สามารถออกเมื่อไหร่ก็ได้ ตามต้องการ</p>
-            </div>
+              </div>
     				</div>
+          </div>
+
+          <div id="surveyThai" hidden="true">
+            <div class="scalable scalable-16-9">
+              <div class="scalable-content">
+                            <!-- change the url to the specific one -->
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd3fOFu0wnvr4T8_0IZW6boOLqUS7QIgJXz59DOGo_-x3kY0g/viewform?embedded=true">Loading...</iframe>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 text-center" style="margin-top:3px;">
+                  <h3>กรุณาส่งแบบสำรวจก่อนอ่านข้อมูลนี้</h3>
+              </div>
+              <div class="col-lg-12 text-center" style="margin-top:25px;">
+                <a class="btn btn-primary btn-lg active" href="https://drive.google.com/file/d/0B-7xnZ1t1Dn2SVdleHFFZ2xhenc/view?usp=sharing">แผ่นข้อมูล</a>
+              </div>
+            </div>
+          </div>
+
+          <div id="surveyEng" hidden="true">
+            <div class="scalable scalable-16-9">
+              <div class="scalable-content">
+                            <!-- change the url to the specific one -->
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc2BzO_NMYkN_t8DsY1jU0xi3arCuc_AOQwBr853CF_7VaCGw/viewform?embedded=true">Loading...</iframe>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center" style="margin-top:3px;">
+                    <h3>Please submit the survey before reading this information sheet</h3>
+                </div>
+                <div class="col-lg-12 text-center" style="margin-top:25px;">
+                  <a class="btn btn-primary btn-lg active" href="https://drive.google.com/file/d/0B-7xnZ1t1Dn2S01SaTlrcUpKWmc/view?usp=sharing">Information sheet</a>
+                </div>
+            </div>
+          </div>
     			<!-- </div> -->
 
     			<script>
 
-            function advance(getAge,getTerm) {
-
+            function advance(getAge,getTerm,language) {
               if (getAge.checked && getTerm.checked){
-                return true;
+                showSurvey(language);
               }
               else{
                 alert("Please select both 2 choices to continue. (กรุณาเลือกทั้ง 2 ตัวเลือกเพื่อดำเนินการต่อ)");
@@ -221,6 +261,21 @@
   							english.style.display = 'none';
   						}
     				}
+
+            function showSurvey(language){
+              var surveyThai = document.getElementById('surveyThai');
+              var surveyEng = document.getElementById('surveyEng');
+
+              consentPart.style.display = 'none';
+              if (language === 'thai'){
+                surveyThai.hidden = false;
+                window.scrollTo(0, 0);
+              }
+              else {
+                surveyEng.hidden = false;
+                window.scrollTo(0, 0);
+              }
+            }
     			</script>
             </div>
         </div>
