@@ -16,6 +16,6 @@
 }
 
 .scalable-16-9 .scalable-content {
-  /* Percentage from 9 divided by 16 for ratio of 16:9. */
+   /*Percentage from 9 divided by 16 for ratio of 16:9.*/
   padding-bottom: 56.25%;
 }
